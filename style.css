@@ -9,6 +9,25 @@
   box-shadow: none;
   font-size: 24px;
   background-color: white;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.ui.top.container {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.ui.logo.image {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.ui.right.aligned.header {
+  font-size: 12px;
+  color: #dedede;
+  padding-right: 15px;
 }
 
 .ui.padded.bottomseg.segment {
@@ -28,8 +47,8 @@
 }
 
 .ui.wholepage.container {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   padding-bottom: 50px;
 }
 
@@ -47,11 +66,6 @@
 
 body {
   background-color: #888888;
-}
-
-.ui.right.aligned.header {
-  font-size: 12px;
-  color: #dedede;
 }
 
 .content {
@@ -90,9 +104,35 @@ body {
   background-color: #4c4c4c;
   padding-top: 10px;
   padding-bottom: 10px;
+  color: #cccccc;
+  font-size: 12px;
 }
 
-.footer.text {
+.center-background {
+  background: url(https://i0.wp.com/www.bpaviation.com/wp-content/uploads/2013/12/fueltruck.jpg?resize=980%2C370);
+  background-size: cover;
+  height: 375px;
+}
+
+.ui.left.ribbon.massive.label {
+  background-color: #dedede;
+  padding-left: 20px;
+  padding-right: 5px;
   color: white;
-  font-size: 12px;
+}
+
+.ui.right.ribbon.massive.label {
+  background-color: #dedede;
+  padding-left: 20px;
+  padding-right: 5px;
+  color: white;
+}
+
+.ui.picture.two.column.grid.container {
+  padding-top: 150px;
+}
+
+.ui.four.column.centered.grid.container {
+  padding-right: 20px;
+  padding-left: 20px;
 }
